@@ -10,6 +10,8 @@
 		CF4E9783170ECBA100AC380A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF4E9782170ECBA100AC380A /* Foundation.framework */; };
 		CF4E9786170ECBA100AC380A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CF4E9785170ECBA100AC380A /* main.m */; };
 		CF4E978A170ECBA100AC380A /* demo1.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = CF4E9789170ECBA100AC380A /* demo1.1 */; };
+		CF4E9792170ECBBF00AC380A /* DemoFile.m in Sources */ = {isa = PBXBuildFile; fileRef = CF4E9791170ECBBF00AC380A /* DemoFile.m */; };
+		CF4E9795170ECE3800AC380A /* DemoFileX.m in Sources */ = {isa = PBXBuildFile; fileRef = CF4E9794170ECE3800AC380A /* DemoFileX.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +33,10 @@
 		CF4E9785170ECBA100AC380A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CF4E9788170ECBA100AC380A /* demo1-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "demo1-Prefix.pch"; sourceTree = "<group>"; };
 		CF4E9789170ECBA100AC380A /* demo1.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = demo1.1; sourceTree = "<group>"; };
+		CF4E9790170ECBBF00AC380A /* DemoFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoFile.h; sourceTree = "<group>"; };
+		CF4E9791170ECBBF00AC380A /* DemoFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoFile.m; sourceTree = "<group>"; };
+		CF4E9793170ECE3800AC380A /* DemoFileX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoFileX.h; sourceTree = "<group>"; };
+		CF4E9794170ECE3800AC380A /* DemoFileX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoFileX.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,7 +80,10 @@
 			isa = PBXGroup;
 			children = (
 				CF4E9785170ECBA100AC380A /* main.m */,
-				CF4E9789170ECBA100AC380A /* demo1.1 */,
+				CF4E9791170ECBBF00AC380A /* DemoFile.m */,
+				CF4E9790170ECBBF00AC380A /* DemoFile.h */,
+				CF4E9793170ECE3800AC380A /* DemoFileX.h */,
+				CF4E9794170ECE3800AC380A /* DemoFileX.m */,
 				CF4E9787170ECBA100AC380A /* Supporting Files */,
 			);
 			path = demo1;
@@ -83,6 +92,7 @@
 		CF4E9787170ECBA100AC380A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				CF4E9789170ECBA100AC380A /* demo1.1 */,
 				CF4E9788170ECBA100AC380A /* demo1-Prefix.pch */,
 			);
 			name = "Supporting Files";
@@ -140,6 +150,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				CF4E9786170ECBA100AC380A /* main.m in Sources */,
+				CF4E9792170ECBBF00AC380A /* DemoFile.m in Sources */,
+				CF4E9795170ECE3800AC380A /* DemoFileX.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
